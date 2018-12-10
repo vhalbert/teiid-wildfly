@@ -13,7 +13,6 @@
 	<description />
 
 	<modules>
-		<module>translator-accumulo</module>
 		<module>connector-accumulo</module>
 		<module>feature-pack-accumulo</module>
 	</modules>

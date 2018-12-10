@@ -77,7 +77,6 @@
   </dependencies>
   
   <modules>
-    <module>document-api</module>      
     
     <module>accumulo</module>
     <module>cassandra</module>
@@ -95,6 +94,5 @@
     <module>swagger</module>
     <module>infinispan</module>
     <module>misc</module>
-    <module>sandbox</module>
   </modules>
 </project>

@@ -14,7 +14,6 @@
 	<description />
 
 	<modules>
-		<module>translator-ws</module>
 		<module>connector-ws</module>
 		<module>feature-pack-ws</module>
 	</modules>

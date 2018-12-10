@@ -13,8 +13,6 @@
   <description />
   
   <modules>
-    <module>google-api</module>
-    <module>translator-google</module>
     <module>connector-google</module>
     <module>feature-pack-google</module>
   </modules>

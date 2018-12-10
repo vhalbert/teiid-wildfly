@@ -13,7 +13,6 @@
   <description />
   
   <modules>
-    <module>translator-swagger</module>
     <module>feature-pack-swagger</module>
   </modules>
 
