@@ -421,26 +421,12 @@
 	</dependencyManagement>
 	<modules>
         <module>build-configuration</module>
-		<module>common-core</module>
-		<module>api</module>
-		<module>client</module>
-		<module>admin</module>
-		<module>data-quality</module>
-		<module>engine</module>
-		<module>metadata</module>
-		<module>runtime</module>
-		<module>hibernate-dialect</module>
 		<module>eclipselink-platform</module>		
-		<module>olingo-common</module>
-		<module>olingo-patches</module>
-		<module>olingo</module>
 		<module>jboss-admin</module>
 		<module>jboss-integration</module>
 		<module>jboss-security</module>
-		<module>rest-service</module>
 		<module>teiid-feature-pack</module>
         <module>connectors</module>
-		<module>test-integration</module>
-		<module>saxon-xom</module>
+        <module>test-integration</module>
 	</modules>
 </project>

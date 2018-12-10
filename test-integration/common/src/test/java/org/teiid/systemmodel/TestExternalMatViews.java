@@ -42,6 +42,7 @@ import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.teiid.adminapi.Model.Type;
 import org.teiid.adminapi.impl.ModelMetaData;
@@ -62,6 +63,7 @@ import org.teiid.translator.TranslatorException;
 import org.teiid.translator.jdbc.h2.H2ExecutionFactory;
 
 @SuppressWarnings("nls")
+@Ignore
 public class TestExternalMatViews {
     private static final class DelayableHardCodedExectionFactory extends
             HardCodedExecutionFactory {
