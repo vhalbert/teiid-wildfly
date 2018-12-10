@@ -1,7 +1,7 @@
 teiid
 =====
 
-[![Build Status](https://travis-ci.org/teiid/teiid.svg?branch=master)](https://travis-ci.org/teiid/teiid)
+[![Build Status](https://travis-ci.org/teiid/teiid.svg?branch=master)](https://travis-ci.org/teiid/teiid-wildfly)
 [![Join the chat at https://gitter.im/teiid](https://badges.gitter.im/teiid/teiid.svg)](https://gitter.im/teiid?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Teiid is a data virtualization system that allows applications to use data from multiple, heterogeneous data stores.
@@ -14,22 +14,22 @@ Teiid is a data virtualization system that allows applications to use data from 
 - User Forum - https://community.jboss.org/en/teiid?view=discussions
 - Wiki - https://community.jboss.org/wiki/TheTeiidProject
 
-## To build Teiid
+## To build Teiid-Wildfly
 - install JDK 1.8 or higher
 - install maven 3.2+ - http://maven.apache.org/download.html
-- Create a github account and fork Teiid
+- Create a github account and fork teiid-wildfly
 
 Enter the following:
 
-	$ git clone https://github.com/<yourname>/teiid.git
-	$ cd teiid
+	$ git clone https://github.com/<yourname>/teiid-wildfly.git
+	$ cd teiid-wildfly
 	$ mvn clean install -P dev -s settings.xml
 	
-you can find the deployment artifacts in the "teiid/build/target" directory once the build is completed.
+you can find the deployment artifacts in the "teiid-wildfly/build/target" directory once the build is completed.
 
 ## Travis Builds
 
-Teiid includes a travis build config.  By default it performs only an "install" on every commit.  It allows for a
+Teiid-wildfly includes a travis build config.  By default it performs only an "install" on every commit.  It allows for a
 cron based build to be configured as well for deploying snapshots.  The snapshot build requires add the environment
 variables SONATYPE_USERNAME and SONATYPE_PASSWORD that should set to the user access token values of an
 authorized sonatype account.

@@ -10,12 +10,12 @@
     </parent> 
     
 	<groupId>org.teiid</groupId>
-	<artifactId>teiid-build-configuration-parent</artifactId>
+	<artifactId>teiid-wildfly-build-configuration-parent</artifactId>
 	<packaging>pom</packaging>
-	<name>Teiid Build Configuration Parent</name>
+	<name>Teiid Wildfly Build Configuration Parent</name>
 
     <version>12.0.0-SNAPSHOT</version>
-	<description>Parent Pom for Teiid build configuration</description>
+	<description>Parent Pom for Teiid Wildfly build configuration</description>
     
     
     <modules>
@@ -32,7 +32,7 @@
 	    <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- Teiid Version -->
-        <version.org.teiid>${project.version}</version.org.teiid>
+        <version.org.teiid>12.0.0-SNAPSHOT</version.org.teiid>
 
         <derby.version>10.2.1.6</derby.version>
 	    <mysql.connector.version>5.1.5</mysql.connector.version>

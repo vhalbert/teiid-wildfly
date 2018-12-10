@@ -3,18 +3,18 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-        <artifactId>teiid-build-configuration-parent</artifactId>
+        <artifactId>teiid-wildfly-build-configuration-parent</artifactId>
         <groupId>org.teiid</groupId>
         <version>12.0.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
     <groupId>org.teiid</groupId>
-	<artifactId>teiid-bom</artifactId>
+	<artifactId>teiid-wildfly-bom</artifactId>
 	<packaging>pom</packaging>
-	<name>Teiid BOM</name>
+	<name>Teiid Wildfly BOM</name>
 
-	<description>Teiid Bill Of Materials</description>
+	<description>Teiid Wildfly Bill Of Materials</description>
 	<dependencyManagement>
 		<dependencies>
 
